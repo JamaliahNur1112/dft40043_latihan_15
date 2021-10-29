@@ -12,20 +12,59 @@
 .col:nth-child(2), .col:nth-child(4){
     background-color: cyan;
 }
-@media screen and(max-width:1000px) {
-    .col{
-        width: 100px;
+@media screen and (max-width:1000px) {
+    .col {
+        width: 50%;
+    }
+
+    .container {
+        max-width: 950px;
+        margin: auto;
+        padding-top: 50px;
     }
 }
-@media screen and (max){
-    .col{
+
+@media screen and (max-width:500px) {
+    .col {
         width: 100%;
     }
+
+    .container {
+        width: 1150px;
+        margin: auto;
+        padding-top: 50px;
+    }
 }
-/* munu */
+
+/* MENU */
 .menu {
     list-style-type: none;
+    background-color: orangered;
 }
-.menu li{
+
+.menu li {
     float: left;
+}
+
+
+.menu a {
+    text-decoration: none;
+    padding: 20px;
+    color: slategray;
+    background-color: oldlace;
+}
+
+.menu a:hover {
+    color: black;
+    background-color:deepskyblue;
+}
+
+/* TUTUP FLOAT LEFT */
+.tajuk {
+    clear: both;
+    padding-top: 40px;
+}
+
+.mulabaru {
+    clear: both;
 }
