@@ -1,0 +1,31 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col {
+    width: 25px;
+    height: 100px;
+    font-size: 40px;
+    text-align: center;
+    background-color: chartreuse;
+}
+
+.col:nth-child(2), .col:nth-child(4){
+    background-color: cyan;
+}
+@media screen and(max-width:1000px) {
+    .col{
+        width: 100px;
+    }
+}
+@media screen and (max){
+    .col{
+        width: 100%;
+    }
+}
+/* munu */
+.menu {
+    list-style-type: none;
+}
+.menu li{
+    float: left;
+}
